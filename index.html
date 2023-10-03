@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>URL Shortener</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <h1>URL Shortener and Expander</h1>
+
+    <label for="urlInput">Enter a Long URL:</label>
+    <input type="text" id="urlInput" placeholder="https://example.com">
+    <button onclick="shortenURL()">Shorten</button>
+
+    <p id="shortURL"></p>
+
+    <label for="shortURLInput">Enter a Short URL:</label>
+    <input type="text" id="shortURLInput" placeholder="Short URL">
+    <button onclick="expandURL()">Expand</button>
+
+    <p id="expandedURL"></p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
